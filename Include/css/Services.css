@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600&display=swap');
+
+
+
+#Services{
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+    height: auto;
+    min-height: 100vh;
+    background-color: snow;
+}
+.services-title{
+    padding: 5px;
+    margin: 10px;
+    margin-top: 30px;
+    position: relative;
+    display: block;
+    height: auto;
+    justify-content: center;
+    text-align: center;
+
+}
+.services-title h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3.3em;
+    margin-bottom: 0px;
+}
+.services-underline{
+position:relative;
+width: 60px;
+height: 3px;
+top: 50%;
+left: 51%;
+margin-top: -50px;
+margin-left: -50px;
+background: tomato;
+margin-top: auto;
+margin-bottom: 10px;
+}
+.services-title h2{
+font-family: 'Fuzzy Bubbles', cursive;
+text-align: center;
+font-weight: 400;
+font-size: 1.5em;
+}
+.services-box{
+margin-top: 10px;
+background-color: white;
+padding: 15px;
+padding-top: 30px;
+position: relative;
+display: block;
+height: auto;
+min-height: 500px;
+text-align: center;
+border-radius: 3px;
+box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.2);
+}
+.services-img1{
+position: relative;
+display: flex;
+left: 37%;
+height: 70px;
+width: 70px;
+background-image: url(../Picture/ServicesPage/get\ cash.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+.services-img2{
+position: relative;
+display: flex;
+left: 33%;
+height: 70px;
+width: 100px;
+background-image: url(../Picture/ServicesPage/towing\ icon.png);
+background-size: cover;
+background-repeat: no-repeat;
+background-position-y: center;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+.services-img3{
+position: relative;
+display: flex;
+left: 37%;
+height: 70px;
+width: 70px;
+background-image: url(../Picture/ServicesPage/recycle\ icon.png);
+background-size: cover;
+background-repeat: no-repeat;
+border-radius: 20px;
+margin-bottom: 10px;
+}
+.services-box h3{
+font-family: 'Quicksand', sans-serif;
+font-weight: 600;
+font-size: 1.3em;
+text-transform: uppercase;
+color: tomato;
+}
+.services-box p{
+font-family: 'Source Sans 3', sans-serif;
+font-size: 1.1em;
+text-align: center;
+color: lightslategrey;
+padding: 20px;
+margin-top: 10px;
+}

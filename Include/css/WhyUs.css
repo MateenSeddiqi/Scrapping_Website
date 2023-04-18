@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600&display=swap');
+
+
+#WhyUs{
+    height: auto;
+    min-height: fit-content;
+    background: url(../Picture/WhyUs/whyusbackground.jpg) no-repeat;
+    background-size: contain;
+    background-position-x: center;
+    background-position-y: center;
+}
+.whyus-title{
+    position: relative;
+    display:contents;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+.whyus-title h1{
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-weight: 600;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: rgba(40, 135, 243, 0.911);
+    margin: 10px;
+}
+.whyus-title h3{
+    font-family: 'Fuzzy Bubbles', cursive;
+    text-align: center;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-transform: capitalize;
+    color: rgba(14, 9, 90, 0.856);
+    word-spacing: 20px;
+    margin: 10px;
+}
+.whyus-box{
+    position: relative;
+    width: auto;
+    height: auto;
+    min-height: 220px;
+    margin: 40px 0;
+    background: #fff;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.932);
+    box-shadow: 0px 10px 25px rgba(0,0,0,0.2);
+    border-radius: 10px; 
+    backdrop-filter: blur(5%);
+}
+
+.whyus-icon1{
+    position: relative;
+    display: flex;
+    left: 39%;
+    height: 70px;
+    width: 70px;
+    background-image: url(../Picture/WhyUs/support.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.whyus-icon2{
+    position: relative;
+    display: flex;
+    left: 39%;
+    height: 70px;
+    width: 70px;
+    background-image: url(../Picture/WhyUs/tow-truck.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.whyus-icon3{
+    position: relative;
+    display: flex;
+    left: 39%;
+    height: 70px;
+    width: 70px;
+    background-image: url(../Picture/WhyUs/best-price.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    border-radius: 2px;
+    margin-bottom: 10px;
+}
+.whyus-box h4{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 10px;
+    color:#24425e;
+}
+.whyus-box p{
+    font-size: 1.2em;
+    padding: 20px;
+    font-family: 'Source Sans 3', sans-serif;
+    color:#24425e;
+    font-weight: 400;
+}
+@media (max-width : 720px){
+    .whyus-box{
+        max-width: 400px;
+        align-content: center;
+        left: 10%;
+    }
+}

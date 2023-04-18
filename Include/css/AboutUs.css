@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200;300;400;500;600&display=swap');
+
+
+
+#AboutUS{
+    height: auto;
+    min-height: 100vh;
+    background-color: white;
+}
+.aboutus-box{
+    padding: 40px;
+    height: auto;
+    min-height: 300px;
+    box-shadow:  2px 2px 12px 4px rgba(0,0,0,0.2);
+    border-radius: 2px;
+    background: url(../Picture/AboutUs/wave.png) no-repeat ;
+    background-color: whitesmoke;
+    background-size: cover;
+    
+}
+.aboutus-title{
+    position: relative;
+    
+}
+.aboutus-title h1{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    text-transform: uppercase;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+.aboutus-title h3{
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: capitalize;
+    color:whitesmoke;
+}
+.aboutus-title p{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.2em;
+    color: whitesmoke;
+}
+.map{
+    position: relative;
+    border-radius: 4px;
+    display: flex;
+    box-shadow: 2px 2px 12px 4px rgba(0,0,0,0.2);
+    height: 300px;
+    overflow: hidden;
+}
+.contact{
+    margin: 20px;
+    padding: 10px;
+
+}
+.contact h1{
+    font-size: 1.6em;
+    font-weight: 600;
+    font-family: 'Source Sans 3', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+.contact h2{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 200;
+}
+.contact h3{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: -10px;
+}
+.contact h4{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 200;
+}
+.contact h5{
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.5em;
+    color: white;
+    margin-top: -10px;
+}
+.para p{
+    margin: 5px;
+    font-family: 'Source Sans 3', sans-serif;
+    font-size: 1.2em;
+    text-align: justify;
+    text-justify: inter-word;
+    color: white;
+}
