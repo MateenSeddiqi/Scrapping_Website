@@ -21,7 +21,7 @@ This is a website developed for a car scraping business, providing a user-friend
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/car-scraping-website.git
+   git clone https://github.com/MateenSeddiqi/Scrapping_Website.git
    ```
 
 2. Navigate to the project directory:
@@ -41,10 +41,3 @@ This is a website developed for a car scraping business, providing a user-friend
 ## Contributing
 
 If you would like to contribute to this project, please feel free to submit a pull request. We welcome any improvements or bug fixes.
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).
-```
-
-This README.md file provides an overview of your car scraping website, including the features, technologies used, installation and setup instructions, and information about contributing and licensing. Feel free to modify the content to suit your specific requirements.
